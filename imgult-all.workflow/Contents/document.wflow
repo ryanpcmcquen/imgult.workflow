@@ -61,6 +61,8 @@
 					<key>COMMAND_STRING</key>
 					<string>#!/bin/sh
 export PATH=/usr/local/bin:$PATH
+## make imgult re-process files
+export ENGAGE_IMGATCH_SERVICE=false
 imgult "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
